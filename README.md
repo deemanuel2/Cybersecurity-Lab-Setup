@@ -110,11 +110,50 @@ Example configuration:
 
 ```text
 IP Address: 10.0.0.2
-Subnet Mask: 255.255.255.0
+Net Mask: 24
 Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![image alt]()
+![image alt](https://github.com/emmy325/Cybersecurity-Lab-Setup/blob/cdb4359af70c21ddc13876a8bc237d9aeadcc50f/Manual_Network_Config.png)
+
+---
+
+## Step 6. Create a Clean VM Snapshot
+
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+
+```text
+My Fresh Kali-Linux
+```
+
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
+
+---
+
+
+# When all the steps are done, you can check the ip and ping for connectivity
+
+---
+
+
+## Problems Encountered and Solutions
+
+**1. Virtualization Disabled:** Virtualization was initially disabled on my PC, preventing the virtual environment from running properly. I restarted the PC, entered the BIOS/UEFI settings, and enabled virtualization.
+
+**2. DNS Resolution Issue:** After configuring the static IP address, the local DNS server (`10.0.0.1`) did not resolve domain names as expected. I tested connectivity and used Google's public DNS (`8.8.8.8`) to resolve the issue.
+
+## What I Learned
+
+- **NAT vs. NAT Network:** Learned the difference between NAT and NAT Network and how they provide external connectivity and communication between virtual machines.
+- **Virtual Machine Networking:** Understood how VirtualBox network adapters affect connectivity between virtual machines.
+- **Static IP Configuration:** Practiced configuring IP addresses, subnet masks, gateways, and DNS servers.
+- **Snapshots:** Learned the importance of creating clean snapshots before making risky or experimental changes.
+- **Technical Documentation:** Gained practical experience documenting a cybersecurity lab project using GitHub and Markdown.
