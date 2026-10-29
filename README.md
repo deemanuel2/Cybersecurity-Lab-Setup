@@ -157,3 +157,16 @@ If a future exercise changes or damages the VM configuration, the machine can be
 - **Static IP Configuration:** Practiced configuring IP addresses, subnet masks, gateways, and DNS servers.
 - **Snapshots:** Learned the importance of creating clean snapshots before making risky or experimental changes.
 - **Technical Documentation:** Gained practical experience documenting a cybersecurity lab project using GitHub and Markdown.
+
+---
+
+# 🔗 Tools & Resources
+
+- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
+---
+
+
+
