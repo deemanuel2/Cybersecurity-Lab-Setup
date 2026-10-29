@@ -63,10 +63,13 @@ VirtualBox was installed as the hypervisor.
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration:
+```text
 Network Name: NatNetwork
 IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
+```
+
 ![image alt](https://github.com/emmy325/Cybersecurity-Lab-Setup/blob/0f561553e3ba9734d63042de124dfd028c8eccef/Screenshot%202026-10-26%20115119.png)
 
 ---
