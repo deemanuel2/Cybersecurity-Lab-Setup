@@ -16,7 +16,7 @@ Cybersecurity Lab Setup - kali Linux and VirtualBox
 
 ## 📌 Project Overview
 
-This project focuses on setting up a **virtual cybersecurity and penetration-testing lab** using VirtualBox and Kali Linux.
+This project focuses on setting up a **virtual cybersecurity and penetration-testing lab** using Kali Linux and VirtualBox.
 
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
 
