@@ -152,6 +152,8 @@ Example snapshot name:
 My Fresh Kali-Linux
 ```
 
+![image alt](https://github.com/emmy325/Cybersecurity-Lab-Setup/blob/c293e699e1e728425a305df6342d1e3cf7c60cfd/Screenshot%202026-10-26%20125943.png)
+
 The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
@@ -182,8 +184,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 **1. Virtualization Disabled:** Virtualization was initially disabled on my PC, preventing the virtual environment from running properly. I restarted the PC, entered the BIOS/UEFI settings, and enabled virtualization.
 
-**2. DNS Resolution Issue:** After configuring the static IP address, the local DNS server (`10.0.0.1`) did not resolve domain names as expected. I tested connectivity and used Google's public DNS (`8.8.8.8`) to resolve the issue.
-
+**2. DNS Resolution Issue:** After configuring the static IP address, I encountered difficulties resolving domain names using the local DNS server (`10.0.0.1`). Although both DNS options can work, I used Google's public DNS (`8.8.8.8`), which successfully resolved domain names in my lab.
 ## What I Learned
 
 - **NAT Network:** Learned how to configure a NAT Network in VirtualBox to allow virtual machines on the same network to communicate with each other while accessing external networks.
