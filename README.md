@@ -51,4 +51,12 @@ It can be used for activities such as:
 **Tool:** 7-Zip
 ![image alt](https://github.com/emmy325/Cybersecurity-Lab-Setup/blob/a833556ca1a31576579b369e5f27d74f7e7dabac/Screenshot%202026-10-26%20114226.png)
 
+---
+
+## Step 2. Install VirtualBox
+
+VirtualBox was installed as the hypervisor.
+
+
+
 
