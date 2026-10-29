@@ -120,6 +120,8 @@ RAM: 2048 MB
 
 ---
 
+![image alt](https://github.com/emmy325/Cybersecurity-Lab-Setup/blob/5fa69aa3724733662141fab4e5fd87498361f7c2/Screenshot%202026-10-26%20115716.png)
+
 
 ## Step 5. Configure the Kali Linux Network
 
