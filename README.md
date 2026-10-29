@@ -203,5 +203,8 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
+# 👤 Author
+**Emmanuel Opara**
 
+LinkedIn: [linkedin.com/in/emmanuel-opara-29525a268](linkedin.com/in/emmanuel-opara-29525a268)
 
