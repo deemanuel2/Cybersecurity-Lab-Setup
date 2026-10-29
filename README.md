@@ -162,6 +162,19 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
+## 🔎 Lab Verification
+
+| ✅ Test | 🧾 Command | 🎯 Expected Result |
+|---|---|---|
+| 🌐 Check IP address | `ip a` | Kali's assigned IP address is displayed |
+| 📡 Test gateway connectivity | `ping 10.0.0.1` | Replies received from the gateway |
+| 🌍 Test Internet connectivity | `ping 8.8.8.8` | Replies received from Google's DNS IP |
+| 🔎 Verify DNS resolution | `nslookup http.kali.org 8.8.8.8` | Domain resolves to an IP address |
+| 🧰 Verify Nmap installation | `nmap --version` | Installed Nmap version is displayed |
+| 📸 Verify snapshot | Restore the saved snapshot and run `ip a` | The virtual machine returns to its saved state |
+
+---
+
 
 ## Problems Encountered and Solutions
 
@@ -171,7 +184,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ## What I Learned
 
-- **NAT vs. NAT Network:** Learned the difference between NAT and NAT Network and how they provide external connectivity and communication between virtual machines.
+- **NAT Network:** Learned how to configure a NAT Network in VirtualBox to allow virtual machines on the same network to communicate with each other while accessing external networks.
 - **Virtual Machine Networking:** Understood how VirtualBox network adapters affect connectivity between virtual machines.
 - **Static IP Configuration:** Practiced configuring IP addresses, subnet masks, gateways, and DNS servers.
 - **Snapshots:** Learned the importance of creating clean snapshots before making risky or experimental changes.
