@@ -26,17 +26,17 @@ The virtual network is designed to support future expansion by allowing more vir
 
 ## 🛡️ Purpose of the Lab
 
-The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
+The lab offers a safe, isolated space to develop practical cybersecurity skills and carry out authorized security exercises.
 
-It can be used for activities such as:
+Possible activities include:
 
-- Network reconnaissance
-- Port scanning
-- Vulnerability assessment
-- Packet analysis
-- Web security testing
-- Exploitation practice
-- Security-tool experimentation and so much more
+- Discovering devices and gathering network information
+- Scanning ports to identify exposed services
+- Checking systems for potential vulnerabilities
+- Examining network traffic with packet analysis tools
+- Practicing web application security testing
+- Learning how exploitation techniques work in a controlled setting
+- Testing cybersecurity tools and exploring their capabilities
 
 # N.B: For Educational purpose only
 
@@ -129,7 +129,7 @@ Example configuration:
 
 ```text
 IP Address: 10.0.0.2
-Net Mask: 24
+Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
