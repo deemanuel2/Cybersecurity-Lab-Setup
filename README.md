@@ -1,5 +1,5 @@
 # Cybersecurity-Lab-Setup
-Cybersecurity Lab Setup
+Cybersecurity Lab Setup - kali Linux and VirtualBox
 <p align="center">
   <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ver-Virtualbox-0070C0?style=flat-square&labelColor=000000" />
