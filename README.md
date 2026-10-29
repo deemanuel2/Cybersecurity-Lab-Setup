@@ -49,4 +49,6 @@ It can be used for activities such as:
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
 
 **Tool:** 7-Zip
+![](Screenshot 2026-10-26 114226.png)
+
 
